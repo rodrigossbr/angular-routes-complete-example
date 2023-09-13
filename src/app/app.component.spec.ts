@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular_routes_complete_example'`, () => {
+  it(`should have as title 'angular-routes-complete-example'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular_routes_complete_example');
+    expect(app.title).toEqual('angular-routes-complete-example');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('angular_routes_complete_example app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('angular-routes-complete-example app is running!');
   });
 });

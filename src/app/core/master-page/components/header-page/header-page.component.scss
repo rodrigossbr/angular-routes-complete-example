@@ -1,0 +1,40 @@
+:host {
+
+  .header-page {
+    display: flex;
+    align-items: center;
+    height: 8%;
+    min-height: 4rem;
+    background-color: blue;
+    color: white;
+
+    .icon {
+      margin: 0.2rem;
+      padding: 1rem;
+      cursor: pointer;
+
+      i {
+        display: flex;
+        align-items: center;
+        width: 24px;
+        height: 16px;
+        border: {
+          bottom: 2px solid white;
+          top: 2px solid white;
+        };
+
+        &::before {
+          content: ' ';
+          width: inherit;
+          border: {
+            top: 2px solid white;
+          };
+        }
+      }
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+      }
+    }
+  }
+}

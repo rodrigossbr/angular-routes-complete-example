@@ -1,0 +1,12 @@
+<app-header-page
+  (togleMenu)="togleMenu()"
+></app-header-page>
+
+<div class="body-page">
+  <app-menu-page
+    [showMenu]="showMenu"
+  ></app-menu-page>
+  <div class="body-page-content">
+    <ng-content></ng-content>
+  </div>
+</div>

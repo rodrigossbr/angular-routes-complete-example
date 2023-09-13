@@ -1,0 +1,22 @@
+<div
+  *ngIf="showMenu"
+  class="menu-page"
+>
+  <div class="header-info">
+    <p>Menu page navigates using: <b>routerLink</b> with link.</p>
+    <p>
+      More information can get from:
+      <a href="https://angular.io/api/router/RouterLink#routerlink" target="_blank">
+        RouterLink
+      </a>
+    </p>
+  </div>
+
+  <a routerLink="/home">Home</a>
+
+  <a routerLink="/product/1">Product 1</a>
+  <a routerLink="/product/1/details">Product 1 details</a>
+
+  <a routerLink="/product/2">Product 2</a>
+  <a routerLink="/product/2/details">Product 2 details</a>
+</div>

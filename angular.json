@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular_routes_complete_example": {
+    "angular-routes-complete-example": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular_routes_complete_example",
+            "outputPath": "dist/angular-routes-complete-example",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular_routes_complete_example:build:production"
+              "browserTarget": "angular-routes-complete-example:build:production"
             },
             "development": {
-              "browserTarget": "angular_routes_complete_example:build:development"
+              "browserTarget": "angular-routes-complete-example:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular_routes_complete_example:build"
+            "browserTarget": "angular-routes-complete-example:build"
           }
         },
         "test": {
@@ -100,5 +100,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "e5dd7f4b-7afe-4b8c-87ee-cf99dc8f3b8b"
   }
 }

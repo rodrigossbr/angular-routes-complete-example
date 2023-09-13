@@ -1,0 +1,21 @@
+
+:host {
+
+  .menu-page {
+    display: flex;
+    flex-direction: column;
+    width: 16rem;
+    height: 100%;
+    background-color: blue;
+    color: white;
+
+    .header-info {
+      margin: 2rem;
+    }
+
+    a {
+      margin: 0.6rem 2rem 0.6rem 2rem;
+      color: white;
+    }
+  }
+}
